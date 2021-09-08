@@ -1,0 +1,34 @@
+body {
+    background-image: url("./img/lampada.svg");
+    background-repeat: no-repeat;
+
+}
+
+.main{
+    height: 650px;
+    background-color: rgba(255,255,255,0.95);
+                
+}
+.apresentacao{
+    font-family: 'Hina Mincho', serif;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.textarea-sugestao{
+    height: 200px;
+}
+.sugestao{
+    max-width: 300px;
+    font-size: 20dp;
+    white-space: nowrap;                  
+    overflow: hidden; /* "overflow" value must be different from "visible" */
+    text-overflow:    ellipsis;
+    border: 1px solid #ccc;
+}
+
+#sres{
+    display: none;
+}
