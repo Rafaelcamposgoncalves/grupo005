@@ -98,7 +98,7 @@
               </div>
               <div class="mb-3">
                 <label for="senha" class="col-form-label">Senha:</label>
-                <input type="text" class="form-control" id="senha" name="password">
+                <input type="password" class="form-control" id="senha" name="password">
               </div>
             
           </div>
